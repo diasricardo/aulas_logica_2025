@@ -53,15 +53,15 @@ const prompt = require('prompt-sync')();
 // //toFixed para colocar somente dois digitos apos a virgula
 // console.log(`Valor total dos produtos ${soma.toFixed(2)}`);
 
-// let soma2 = 0;
-// let qtd2 = 0;
-// let encerrar = ""
-// while(encerrar != "SUB-TOTAL"){
-//     let valor = Number(prompt('Digite o valor do produto:'));
-//         soma2 = soma + valor;
-//         qtd2++;
-//     encerrar = prompt("Deseja continuar: (digite SUB-TOTAL) ")
-// }
+let soma2 = 0;
+let qtd2 = 0;
+let encerrar = ""
+while(encerrar != "SUB-TOTAL"){
+    let valor = Number(prompt('Digite o valor do produto:'));
+        soma2 = soma2 + valor;
+        qtd2++;
+    encerrar = prompt("Deseja continuar: (digite SUB-TOTAL) ")
+}
 
 // console.log(`Foram informados ${qtd2}`);
 // //toFixed para colocar somente dois digitos apos a virgula
