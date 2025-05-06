@@ -3,3 +3,5 @@ let comidas = ["Lasanha", "Pizza","Sushi", "Hamburguer",
 ]
 
 console.log('Todas as comidas', comidas);
+console.log('Todas as comidas', comidas);
+console.log('Todas as comidas', comidas);
